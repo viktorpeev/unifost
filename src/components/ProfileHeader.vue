@@ -10,7 +10,7 @@ const store = useStore()
 
 const avatar = computed(() => store.getUserInfo.avatar)
 
-const avatarSrc = computed(() => `../public/${avatar.value || 'red'}.png`)
+const avatarSrc = computed(() => `../${avatar.value || 'red'}.png`)
 </script>
 
 <style scoped>
