@@ -25,7 +25,7 @@
   </v-container>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { useRouter } from 'vue-router'
 import { ref } from 'vue'
 import { login } from '@/services/auth'

@@ -12,7 +12,7 @@
   </main>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { RouterLink, RouterView, useRouter } from 'vue-router'
 import { isAuthenticated, logout } from '@/services/auth'
 
